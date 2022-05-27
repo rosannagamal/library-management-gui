@@ -1,0 +1,148 @@
+{
+     "registered": [
+          {
+               "name": "rosanna",
+               "email": "rosanna@gmail.com",
+               "priv_level": "Student",
+               "username": "rosannagamal",
+               "password": "rosanna123",
+               "id_num": 4569226960,
+               "municipality": "",
+               "ssn": "",
+               "card data": null
+          },
+          {
+               "name": "milo",
+               "email": "milo@hotmail.com",
+               "priv_level": "Student",
+               "username": "milo",
+               "password": "milo123",
+               "id_num": 3543523960,
+               "municipality": "",
+               "ssn": "",
+               "card data": null
+          },
+          {
+               "name": "sara",
+               "email": "sara@yahoo.com",
+               "priv_level": "Student",
+               "username": "saragamal",
+               "password": "sara123",
+               "id_num": 2569226960,
+               "municipality": "",
+               "ssn": "",
+               "card data": null
+          },
+          {
+               "name": "admin",
+               "email": "admin@users.com",
+               "priv_level": "Admin",
+               "username": "admin",
+               "password": "user",
+               "id_num": 4530166736,
+               "municipality": "",
+               "ssn": "",
+               "card data": null
+          },
+          {
+               "name": "Librarian",
+               "email": "librarian@users.com",
+               "priv_level": "Librarian",
+               "username": "librarian",
+               "password": "user",
+               "id_num": 4551120816,
+               "municipality": "",
+               "ssn": "",
+               "card data": null
+          }
+     ],
+     "restricted": [],
+     "active loans": {
+          "rosanna": [
+               {
+                    "title": "1984",
+                    "date_borrowed": "08-05-2022",
+                    "return_date": "15-05-2022"
+               }
+          ],
+          "milo": [
+               {
+                    "title": "The Invisible Life of Addie LaRue",
+                    "date_borrowed": "06-05-2022",
+                    "return_date": "20-06-2022"
+               }
+          ],
+          "sara": [
+               {
+                    "title": "Pride and Prejudice",
+                    "date_borrowed": "15-05-2022",
+                    "return_date": "10-06-2022"
+               }
+          ]
+     },
+     "books": [
+          {
+               "title": "Pride and Prejudice",
+               "author": "Jane Austen",
+               "isbn": "978-1503290563",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 0,
+               "file": "prideandprejudice.png"
+          },
+          {
+               "title": "The Midnight Library",
+               "author": "Matt Haig",
+               "isbn": "978-0525559474",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 1,
+               "file": "midnight_library.png"
+          },
+          {
+               "title": "1984",
+               "author": "George Orwell",
+               "isbn": " 9780451524935",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 2,
+               "file": "1984.png"
+          },
+          {
+               "title": "The Invisible Life of Addie LaRue",
+               "author": "V.E. Schwab",
+               "isbn": "1250784530",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 0,
+               "file": "theinvisiblelife.png"
+          },
+          {
+               "title": "Where the Crawdads Sing",
+               "author": "Delia Owens",
+               "isbn": "978-1984827616",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 0,
+               "file": "wherethecrawdadssing.png"
+          },
+          {
+               "title": "The Seven Husbands of Evelyn Hugo",
+               "author": "Taylor Jenkins Reid",
+               "isbn": "1501139231",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 0,
+               "file": "thesevenhusbands.png"
+          },
+          {
+               "title": "The Great Gatsby",
+               "author": "F. Scott Fitzgerald",
+               "isbn": "9780743273565",
+               "total copies": 10,
+               "online physical": 0,
+               "borrowed copies": 1,
+               "file": "thegreatgatsby.png"
+          }
+     ]
+}
