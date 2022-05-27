@@ -18,7 +18,7 @@ GUI for the Library Management System (A1, A2)
 * SignIn
 * SignUp
 * Search For Book 
-* Page Displaying Data Dbout Book
+* Page Displaying Data About Book
 * Borrow Book
 * Data About Most Borrowed Book
 * Books Borrowed by Student With Date the Book Was Borrowed
