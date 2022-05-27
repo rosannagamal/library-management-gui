@@ -127,8 +127,9 @@ class HomePage(Tk):
             button.bind('<Button-1>', lambda event: self.return_func(value[0]))
 
     def return_func(self, title):
+        user = library.find_user(library.registered, self.user)
         # Return book function from library class
-        if library.return_book(self.user, title):
+        if library.return_book(user.name, title):
             Label(self, text='Book Returned.', bg='#061A1D', fg='white', font=('Roboto Slab', 15, 'bold')).place(x=591, y=945)
             
 
