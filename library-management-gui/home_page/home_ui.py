@@ -98,11 +98,12 @@ class HomePage(Tk):
 
     def borrowed(self):
         # Displaying data about borrowed books
-        for dct in library.active_loans[self.user]:
+        user = library.find_user(library.registered, self.user)
+
+
+        for dct in library.active_loans[user.name]:
             value = list(dct.values())
-            
-            
-            
+           
             title_label = Label(self, text='Title', bg='#0B3238', fg='white', font=('Roboto Slab', 20, 'bold'))
             title_label.place(x=269, y=691)
             
